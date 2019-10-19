@@ -8,3 +8,6 @@
 alt="Desktop Scree"
 style="float: center"/>
 </p>
+
+**This setup is all about simple customization, clean look, full functionality, it's designed by me for me.
+I am using this set up for so long, but I am open for changes but I am not comfy doing them.**
