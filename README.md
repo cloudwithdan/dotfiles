@@ -1,4 +1,4 @@
-# dotfiles
+# Maintaining my dotfiles, feel free to use!
 :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: 
 <img src="https://img.shields.io/github/license/nikoloskid/dotfiles"/>
 
