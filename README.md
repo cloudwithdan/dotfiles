@@ -1,6 +1,6 @@
 # dotfiles
 :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: 
-
+<img src="https://img.shields.io/github/license/nikoloskid/dotfiles"/>
 
 <p align="center">
   <b>Arch Linux + KDE</b>
