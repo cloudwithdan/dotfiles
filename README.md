@@ -11,9 +11,9 @@ style="float: center"/>
 
 <div align="center">
 
-### Arch Linux [i3-gaps + i3blocks + Zsh + Spacemacs + Rofi + Neofetch]
+### Arch Linux [KDE Plasma + Zsh + Neofetch]
 
-![Desktop](https://github.com/da-edra/dotfiles/blob/master/.screenshots/desktop.png)
+![Desktop](https://github.com/nikoloskid/dotfiles/blob/master/screenshot/desktop.png)
 
 ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 ![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)
