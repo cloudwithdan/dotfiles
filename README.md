@@ -26,4 +26,4 @@ I am using this set up for so long, but I am open for changes but I am not comfy
 | [Zsh](https://github.com/zsh-users/zsh)                  | The most powerful shell out there!                               |
 | [Powerlevel9k](https://github.com/bhilburn/powerlevel9k) | The most awesome Powerline theme for ZSH!                        |
 | [neofetch](https://github.com/dylanaraps/neofetch)       | A fast, highly customizable system info script                   |
-| [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)    | Fonts patched with lots of amazing icons (I use Nato sans        |
+| [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)    | Fonts patched with lots of amazing icons (I use Nato sans)       |
