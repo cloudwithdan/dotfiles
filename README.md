@@ -1,9 +1,13 @@
+<div align="center">
+  
 # Maintaining my dotfiles, feel free to use!
 :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: 
 <img src="https://img.shields.io/github/license/nikoloskid/dotfiles"/>
+</div>
 
 
 <div align="center">
+  
 ### Arch Linux [KDE Plasma + Zsh + Neofetch]
 
 ![Desktop](https://github.com/nikoloskid/dotfiles/blob/master/screenshot/desktop.png)
