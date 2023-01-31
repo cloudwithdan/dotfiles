@@ -2,7 +2,7 @@
   
 # Maintaining my dotfiles, feel free to use!
 :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: :alien: 
-<img src="https://img.shields.io/github/license/nikoloskid/dotfiles"/>
+<img src="https://img.shields.io/github/license/dnikoloski/dotfiles"/>
 </div>
 
 
@@ -10,7 +10,7 @@
   
 ### Arch Linux [KDE Plasma + Zsh + Neofetch]
 
-![Desktop](https://github.com/nikoloskid/dotfiles/blob/master/screenshot/desktop.png)
+![Desktop](https://github.com/dnikoloski/dotfiles/blob/master/screenshot/desktop.png)
 
 ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 </div>
