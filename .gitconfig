@@ -1,0 +1,12 @@
+[user]
+	email = nikoloskid@pm.me
+	name = dnikoloski
+[push]
+	AutoSetupRemote = true
+[credential]
+ 	 helper = store
+#[commit]
+#	gpgSign = true
+[init]
+	defaultBranch = main
+
