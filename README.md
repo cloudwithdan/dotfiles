@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img src="https://seeklogo.com/images/L/linux-logo-76B2B1C6AD-seeklogo.com.png" align="center" width="144px" height="144px"/>
+<img src="https://github.com/dnikoloski/dotfiles/blob/master/screenshot/tux.png" align="center" width="144px" height="144px"/>
 
 ### Maintaining my dotfiles, feel free to use!:octocat:
 
