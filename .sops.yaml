@@ -1,0 +1,8 @@
+---
+creation_rules:
+  - # IMPORTANT: This rule MUST be above the others
+    path_regex: '.*config.*'
+    encrypted_regex: "^(data|stringData)$"
+    key_groups:
+      - age:
+          - "age13swsp40tstrqluer6arm5skldvg5ucw4t390a87qcdzcj0r2jscqrraxnv"

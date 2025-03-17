@@ -1,0 +1,21 @@
+[Unit]
+Description=RamaLama /home/dns/.local/share/ramalama/models/ollama/llama3.2:latest AI Model Service
+After=local-fs.target
+
+[Container]
+AddDevice=-/dev/dri
+AddDevice=-/dev/kfd
+Exec=llama-server --port 8080 -m /mnt/models/model.file -c 2048 --temp 0.8 --host 0.0.0.0
+Image=quay.io/ramalama/ramalama:latest
+Environment=HSA_OVERRIDE_GFX_VERSION=11.0.0
+
+Mount=type=bind,src=/home/dns/.local/share/ramalama/models/ollama/llama3.2:latest,target=/mnt/models/model.file,ro,Z
+
+PublishPort=8080:8080
+
+[Service]
+Restart=on-failure 
+
+[Install]
+# Start by default on boot
+WantedBy=multi-user.target default.target
