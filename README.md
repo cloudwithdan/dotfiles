@@ -1,12 +1,13 @@
 <div align="center">
   
 # Maintaining my dotfiles, feel free to use!
-<img src="https://img.shields.io/github/license/dnikoloski/dotfiles"/>
+<img src="https://img.shields.io/github/license/cloudwithdan/dotfiles"/>
 </div>
 
 <div align="center">
 
-<img src="https://github.com/dnikoloski/dotfiles/blob/master/screenshot/tux.png" align="center" width="144px" height="144px"/>
+<img src="screenshot/tux.png" align="center" 
+width="144px" height="144px"/>
 
 ### Maintaining my dotfiles, feel free to use!:octocat:
 
@@ -16,7 +17,7 @@
   
 ### Arch Linux [GNOME]
 
-![Desktop](https://github.com/dnikoloski/dotfiles/blob/master/screenshot/desktop.png)
+![Desktop](screenshot/desktop.png)
 
 ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 </div>
