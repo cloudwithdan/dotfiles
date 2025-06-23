@@ -10,14 +10,29 @@ PACMAN_PACKAGES=(
 )
 
 AUR_PACKAGES=(
+  # System
   visual-studio-code-bin
   zen-browser-bin
+  ghostty
   fd
   bat
   ripgrep
   eza
   zoxide
   atuin
+  lazygit
+  dysk
+  # Fonts
+  ttf-firacode-nerd
+  # K8s
+  sops
+  k9s
+  kubectl
+  helm
+  talosctl
+  # Hyprland
+  rofi
+  waybar
 )
 
 # Install oh-my-zsh if not already installed
