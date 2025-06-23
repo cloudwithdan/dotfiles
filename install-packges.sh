@@ -22,6 +22,7 @@ AUR_PACKAGES=(
   atuin
   lazygit
   dysk
+  caffeine
   # Fonts
   ttf-firacode-nerd
   # K8s
