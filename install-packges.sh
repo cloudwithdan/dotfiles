@@ -28,8 +28,10 @@ AUR_PACKAGES=(
   caffeine
   keychain
   fzf
+  wttrbar-git
   # Fonts
   ttf-firacode-nerd
+  noto-fonts-emoji
   # K8s
   sops
   k9s

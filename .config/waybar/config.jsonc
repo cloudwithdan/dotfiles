@@ -8,6 +8,7 @@
     ],
   "modules-center": ["clock"],
   "modules-right": [
+    "custom/weather",
     "pulseaudio",
     "network",
     "cpu",
@@ -70,5 +71,12 @@
       "on-scroll-up": "waybar-media.py previous",
       "on-scroll-down": "waybar-media.py next",
       "escape": true
+  },
+  "custom/weather": {
+      "format": "{}°",
+      "tooltip": true,
+      "interval": 3600,
+      "exec": "wttrbar",
+      "return-type": "json"
   }
 }
