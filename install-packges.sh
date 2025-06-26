@@ -6,7 +6,9 @@ set -euo pipefail
 PACMAN_PACKAGES=(
   git
   neovim
-  htop
+  # Hyprland
+  rofi-wayland
+  waybar
 )
 
 AUR_PACKAGES=(
@@ -14,6 +16,7 @@ AUR_PACKAGES=(
   visual-studio-code-bin
   zen-browser-bin
   ghostty
+  btop
   fd
   bat
   ripgrep
@@ -33,9 +36,6 @@ AUR_PACKAGES=(
   kubectl
   helm
   talosctl
-  # Hyprland
-  rofi
-  waybar
 )
 
 # Install oh-my-zsh if not already installed
