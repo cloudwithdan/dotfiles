@@ -45,6 +45,7 @@
 #network,
 #cpu,
 #memory,
+#custom-headset-battery,
 #custom-weather,
 #custom-lock,
 #custom-power {
@@ -115,6 +116,22 @@
 #custom-waybar-media:hover {
   background-color: #232634;
   color: #f2d5cf;
+}
+
+#custom-weather {
+  color: #f2d5cf;
+  background-color: #101010;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+#custom-headset-battery {
+  color: #c6d0f5;
+  background-color: #101010;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
+  border-radius: 5px;
 }
 
 #custom-lock {
