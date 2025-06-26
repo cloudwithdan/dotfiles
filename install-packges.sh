@@ -23,6 +23,8 @@ AUR_PACKAGES=(
   lazygit
   dysk
   caffeine
+  keychain
+  fzf
   # Fonts
   ttf-firacode-nerd
   # K8s

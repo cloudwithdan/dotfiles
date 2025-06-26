@@ -36,7 +36,7 @@
   border-radius: 5px;
 }
 
-#custom-music,
+#custom-waybar-media,
 #tray,
 #backlight,
 #clock,
@@ -51,25 +51,6 @@
   padding: 0.5rem 1rem;
   margin: 5px 0;
   border-radius: 0px 5px 5px 0px;
-}
-
-#custom-stream_status {
-  background-color: #101010;
-  padding: 0.5rem 1rem;
-  margin: 5px 0;
-  border-radius: 0px 5px 5px 0px;
-}
-
-#custom-stream_status.up {
-  color: #c3e88d;
-}
-
-#custom-stream_status.warning {
-  color: #ff9e64;
-}
-
-#custom-stream_status.down {
-  color: #ea999c;
 }
 
 #memory {
@@ -109,9 +90,30 @@
   margin-left: 1rem;
 }
 
-#custom-music {
-  color: #ca9ee6;
+#custom-waybar-media {
+  background-color: #101010;
+  color: #f4b8e4;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
   border-radius: 5px;
+  transition: background 0.2s, color 0.2s;
+}
+
+#custom-waybar-media.playing {
+  color: #a6d189;
+}
+
+#custom-waybar-media.paused {
+  color: #e5c890;
+}
+
+#custom-waybar-media.stopped {
+  color: #e78284;
+}
+
+#custom-waybar-media:hover {
+  background-color: #232634;
+  color: #f2d5cf;
 }
 
 #custom-lock {
@@ -130,4 +132,3 @@
   margin-left: 1rem;
   border-radius: 5px;
 }
-

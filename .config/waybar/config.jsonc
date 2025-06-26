@@ -1,8 +1,10 @@
 {
+  "outptut": "DP-3",
   "layer": "top",
   "position": "top",
   "modules-left": [
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+        "custom/waybar-media"
     ],
   "modules-center": ["clock"],
   "modules-right": [
@@ -27,7 +29,7 @@
   "clock": {
     "timezone": "Europe/Ljubljana",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format": "{:%d:%m.%y - %H:%M}"
+    "format": "{:%d.%m.%y - %H:%M}"
   },
   "network": {
     "format-wifi": "󰤢 ",
@@ -58,9 +60,15 @@
     "on-click": "sh -c '(sleep 0.5s; hyprlock)' & disown",
     "format": ""
   },
-    }
-    "later": {
+  "later": {
         "format": "<span class='icon'>{icon}</span> <span class='text'>{text}</span>"
-    }
-
+  },
+  "custom/waybar-media": {
+      "return-type": "json",
+      "exec": "waybar-media.py status",
+      "on-click": "waybar-media.py playpause",
+      "on-scroll-up": "waybar-media.py previous",
+      "on-scroll-down": "waybar-media.py next",
+      "escape": true
+  }
 }
