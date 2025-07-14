@@ -9,6 +9,9 @@ PACMAN_PACKAGES=(
   # Hyprland
   rofi-wayland
   waybar
+  hyprlock
+  hyprpaper
+  hyprshot
 )
 
 AUR_PACKAGES=(

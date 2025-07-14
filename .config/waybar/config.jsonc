@@ -1,5 +1,4 @@
 {
-  "outptut": "DP-3",
   "layer": "top",
   "position": "top",
   "modules-left": [
@@ -66,19 +65,19 @@
         "format": "<span class='icon'>{icon}</span> <span class='text'>{text}</span>"
   },
   "custom/waybar-media": {
-      "return-type": "json",
-      "exec": "waybar-media.py status",
-      "on-click": "waybar-media.py playpause",
-      "on-scroll-up": "waybar-media.py previous",
-      "on-scroll-down": "waybar-media.py next",
-      "escape": true
+    "return-type": "json",
+    "exec": "waybar-media.py status",
+    "on-click": "waybar-media.py playpause",
+    "on-scroll-up": "waybar-media.py previous",
+    "on-scroll-down": "waybar-media.py next",
+    "escape": true
   },
   "custom/weather": {
-      "format": "{}°",
-      "tooltip": true,
-      "interval": 900,
-      "exec": "wttrbar",
-      "return-type": "json"
+    "format": "{}°",
+    "tooltip": true,
+    "interval": 3600,
+    "exec": "wttrbar --location Bezigrad",
+    "return-type": "json"
   },
   "custom/headset-battery": {
     "tooltip": true,
