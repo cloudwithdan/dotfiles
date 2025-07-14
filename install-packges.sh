@@ -6,18 +6,45 @@ set -euo pipefail
 PACMAN_PACKAGES=(
   git
   neovim
-  htop
+  # Hyprland
+  rofi-wayland
+  waybar
+  hyprlock
+  hyprpaper
+  hyprshot
+  # Development
+  podman
+  podman-desktop
 )
 
 AUR_PACKAGES=(
+  # System
   visual-studio-code-bin
   zen-browser-bin
+  ghostty
+  btop
   fd
   bat
   ripgrep
   eza
   zoxide
   atuin
+  lazygit
+  dysk
+  caffeine
+  keychain
+  fzf
+  wttrbar-git
+  noto-fonts-emoji
+  # Fonts
+  ttf-firacode-nerd
+  noto-fonts-emoji
+  # K8s
+  sops
+  k9s
+  kubectl
+  helm
+  talosctl
 )
 
 # Install oh-my-zsh if not already installed
