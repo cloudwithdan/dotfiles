@@ -12,6 +12,9 @@ PACMAN_PACKAGES=(
   hyprlock
   hyprpaper
   hyprshot
+  # Development
+  podman
+  podman-desktop
 )
 
 AUR_PACKAGES=(
@@ -32,6 +35,7 @@ AUR_PACKAGES=(
   keychain
   fzf
   wttrbar-git
+  noto-fonts-emoji
   # Fonts
   ttf-firacode-nerd
   noto-fonts-emoji
