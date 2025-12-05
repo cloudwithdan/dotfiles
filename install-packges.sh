@@ -7,6 +7,9 @@ PACMAN_PACKAGES=(
   git
   neovim
   htop
+  zsh
+  fzf
+  keychain
 )
 
 AUR_PACKAGES=(
@@ -19,14 +22,6 @@ AUR_PACKAGES=(
   zoxide
   atuin
 )
-
-# Install oh-my-zsh if not already installed
-if [ ! -d "$HOME/.oh-my-zsh" ]; then
-  echo "Installing oh-my-zsh..."
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-else
-  echo "oh-my-zsh is already installed."
-fi
 
 # Function to check if a package is installed
 is_installed() {
@@ -69,6 +64,14 @@ install_aur_packages() {
     fi
   done
 }
+
+# Install oh-my-zsh if not already installed
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+  echo "Installing oh-my-zsh..."
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+else
+  echo "oh-my-zsh is already installed."
+fi
 
 main() {
   echo "Starting package installation..."
